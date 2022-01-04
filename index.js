@@ -1,4 +1,4 @@
-module.exports = function toReadable(number) {
+function toReadable(number) {
     arr1 = [
         "",
         "one",
@@ -59,4 +59,5 @@ module.exports = function toReadable(number) {
     } else if (number === 0) {
         return "zero";
     }
-};
+}
+console.log(toReadable(772));
